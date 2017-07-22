@@ -13,6 +13,8 @@ def addnums(x,y):
     print("I cannot add these types (" + str(type(x)) + ", " + str(type(y)) + ")")
     return
 
+# We can return whatever we want from a function (dictionary, tuple, lists, strings, etc.).
+
 print addnums(2,3.0)
 print addnums("cat",23232)
 
